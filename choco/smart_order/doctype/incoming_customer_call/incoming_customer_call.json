@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-05 22:28:54.917520",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "call_conversation",
+  "call_summary",
+  "call_recording"
+ ],
+ "fields": [
+  {
+   "fieldname": "call_conversation",
+   "fieldtype": "HTML",
+   "label": "Call Conversation"
+  },
+  {
+   "fieldname": "call_summary",
+   "fieldtype": "HTML",
+   "label": "Call Summary"
+  },
+  {
+   "fieldname": "call_recording",
+   "fieldtype": "Attach",
+   "label": "Call Recording"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-05 22:30:36.597779",
+ "modified_by": "Administrator",
+ "module": "Smart Order",
+ "name": "Incoming Customer Call",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
