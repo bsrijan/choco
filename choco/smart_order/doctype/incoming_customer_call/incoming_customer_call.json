@@ -127,9 +127,10 @@
    "options": "Customer"
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 19:07:43.688022",
+ "modified": "2025-04-06 19:08:37.056754",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",
