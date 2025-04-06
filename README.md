@@ -1,5 +1,5 @@
 context:
-sales reps of a distribution company are always on the go and they get customer phone calls to place an order.
+sales reps of a distribution company are always on the go and they get phone calls from customers to place orders.
 
 problems:
 - they have to pull over to take orders - note down details
