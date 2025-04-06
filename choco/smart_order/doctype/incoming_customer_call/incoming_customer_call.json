@@ -119,7 +119,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 14:46:59.548152",
+ "modified": "2025-04-06 14:49:15.850887",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",
@@ -141,6 +141,15 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
+ "states": [
+  {
+   "color": "Orange",
+   "title": "Review"
+  },
+  {
+   "color": "Green",
+   "title": "Processed"
+  }
+ ],
  "track_changes": 1
 }
