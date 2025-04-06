@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-06 14:38:34.529860",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "order_item",
+  "column_break_rjea",
+  "quantity",
+  "column_break_pgmx",
+  "uom"
+ ],
+ "fields": [
+  {
+   "fieldname": "order_item",
+   "fieldtype": "Link",
+   "label": "Order Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "column_break_rjea",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "column_break_pgmx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "order_item.stock_uom",
+   "fieldname": "uom",
+   "fieldtype": "Float",
+   "label": "UOM",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-06 14:44:06.900799",
+ "modified_by": "Administrator",
+ "module": "Smart Order",
+ "name": "Smart Order Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
