@@ -6,12 +6,11 @@
  "engine": "InnoDB",
  "field_order": [
   "customer_details_section",
-  "customer",
+  "customer_id",
   "contact_name",
   "contact_phone_number",
   "column_break_qlnr",
-  "account_manager",
-  "sales_representative",
+  "sales_account_manager",
   "column_break_coec",
   "call_details_section",
   "call_conversation",
@@ -49,11 +48,6 @@
    "label": "Customer Details"
   },
   {
-   "fieldname": "customer",
-   "fieldtype": "Data",
-   "label": "Customer"
-  },
-  {
    "fieldname": "contact_name",
    "fieldtype": "Data",
    "label": "Contact Name"
@@ -66,16 +60,6 @@
   {
    "fieldname": "column_break_qlnr",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "account_manager",
-   "fieldtype": "Data",
-   "label": "Account Manager"
-  },
-  {
-   "fieldname": "sales_representative",
-   "fieldtype": "Data",
-   "label": "Sales Representative"
   },
   {
    "fieldname": "column_break_coec",
@@ -120,11 +104,21 @@
    "fieldname": "order_json",
    "fieldtype": "JSON",
    "label": "Order JSON"
+  },
+  {
+   "fieldname": "sales_account_manager",
+   "fieldtype": "Data",
+   "label": "Sales Account Manager"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Data",
+   "label": "Customer ID"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 11:48:08.318898",
+ "modified": "2025-04-06 11:50:37.199649",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",
