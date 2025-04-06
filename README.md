@@ -29,4 +29,6 @@ how does the flow work?
 - in the web app, a manual review of the order is needed before confirming the order in the system.
 
 how is this solution better?
-- realistically I'm n current state, the order throughput could be an estimated 2-3 orders per hour and with this solution, once could process 12 orders per hour - a 4x increase in productivity
+- productivity: realistically in the current state, the order throughput could be an estimated 2-3 orders per hour and with this solution, once could process 12 orders per hour - a 4x increase in productivity.
+- availability: unlike human, AI agent can take orders 24hours a day and 7 days a week covering virtually any time zone.
+- traceablity: data including the call recording is available so there is highest level of transparency and accountability.
