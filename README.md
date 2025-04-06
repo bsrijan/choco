@@ -26,6 +26,7 @@ how does the flow work?
 - when the customer calls, the customer speaks to an AI agent to place the order
 - created a webhook to relay conversational data from eleven lab to n8n.
 - the data undergoes multiple transformations in n8n before pushing it to custom web app.
+![image](https://github.com/user-attachments/assets/20ab129c-edff-422d-afd2-4360f22b8736)
 - in the web app, a manual review of the order is needed before confirming the order in the system.
 
 how is this solution better?
