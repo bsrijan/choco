@@ -48,6 +48,8 @@
    "label": "Customer Details"
   },
   {
+   "fetch_from": "customer_id.customer_primary_contact",
+   "fetch_if_empty": 1,
    "fieldname": "contact_name",
    "fieldtype": "Link",
    "label": "Contact Name",
@@ -56,6 +58,7 @@
   },
   {
    "fetch_from": "contact_name.mobile_no",
+   "fetch_if_empty": 1,
    "fieldname": "contact_phone_number",
    "fieldtype": "Data",
    "label": "Contact Phone Number",
@@ -126,7 +129,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 17:05:15.697764",
+ "modified": "2025-04-06 19:07:43.688022",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",
