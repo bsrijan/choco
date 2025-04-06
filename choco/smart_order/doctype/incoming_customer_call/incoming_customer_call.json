@@ -29,12 +29,14 @@
   {
    "fieldname": "call_conversation",
    "fieldtype": "Long Text",
-   "label": "Call Conversation"
+   "label": "Call Conversation",
+   "read_only": 1
   },
   {
    "fieldname": "call_summary",
    "fieldtype": "Small Text",
-   "label": "Call Summary"
+   "label": "Call Summary",
+   "read_only": 1
   },
   {
    "fieldname": "call_recording",
@@ -122,7 +124,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 11:32:54.709373",
+ "modified": "2025-04-06 11:48:08.318898",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",
