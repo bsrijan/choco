@@ -22,7 +22,11 @@ techstack:
 
 how does the flow work?
 - created a US number in Twilio that a customer can call.
-- wired the number with a voice agent in eleven labs
+- wired the number with a voice agent in eleven labs.
 - when the customer calls, the customer speaks to an AI agent to place the order
-- created a webhook to relay conversational data from eleven lab to n8n
-- the data undergoes multiple transformations in n8n before pushing it to custom web app
+- created a webhook to relay conversational data from eleven lab to n8n.
+- the data undergoes multiple transformations in n8n before pushing it to custom web app.
+- in the web app, a manual review of the order is needed before confirming the order in the system.
+
+how is this solution better?
+- realistically I'm n current state, the order throughput could be an estimated 2-3 orders per hour and with this solution, once could process 12 orders per hour - a 4x increase in productivity
