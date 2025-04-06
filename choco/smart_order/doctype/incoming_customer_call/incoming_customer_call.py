@@ -53,6 +53,5 @@ def attach_file_to_call_doc(docname, filename, filedata):
             "message": f"Failed to attach file: {e}"
         }
 
-#class IncomingCustomerCall(Document):
-#	pass
-#
+class IncomingCustomerCall(Document):
+	pass
