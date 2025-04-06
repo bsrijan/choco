@@ -77,8 +77,9 @@
   },
   {
    "fieldname": "order_items",
-   "fieldtype": "Data",
-   "label": "Order items"
+   "fieldtype": "Table",
+   "label": "Order items",
+   "options": "Smart Order Item"
   },
   {
    "fieldname": "technical_tab",
@@ -118,7 +119,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 11:50:37.199649",
+ "modified": "2025-04-06 14:45:09.409038",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",
