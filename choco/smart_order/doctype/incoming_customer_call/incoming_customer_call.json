@@ -49,13 +49,17 @@
   },
   {
    "fieldname": "contact_name",
-   "fieldtype": "Data",
-   "label": "Contact Name"
+   "fieldtype": "Link",
+   "label": "Contact Name",
+   "options": "Contact",
+   "read_only": 1
   },
   {
+   "fetch_from": "contact_name.mobile_no",
    "fieldname": "contact_phone_number",
    "fieldtype": "Data",
-   "label": "Contact Phone Number"
+   "label": "Contact Phone Number",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_qlnr",
@@ -107,19 +111,22 @@
    "label": "Order JSON"
   },
   {
+   "default": "Srijan Bandreddi",
    "fieldname": "sales_account_manager",
-   "fieldtype": "Data",
-   "label": "Sales Account Manager"
+   "fieldtype": "Link",
+   "label": "Sales Account Manager",
+   "options": "Sales Account Manager"
   },
   {
    "fieldname": "customer_id",
-   "fieldtype": "Data",
-   "label": "Customer ID"
+   "fieldtype": "Link",
+   "label": "Customer ID",
+   "options": "Customer"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 14:49:15.850887",
+ "modified": "2025-04-06 17:05:15.697764",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",

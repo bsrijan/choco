@@ -10,15 +10,15 @@
  ],
  "fields": [
   {
+   "default": "Srijan Bandreddi",
    "fieldname": "sam_name",
-   "fieldtype": "Link",
-   "label": "SAM Name",
-   "options": "User"
+   "fieldtype": "Data",
+   "label": "SAM Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 13:46:57.251645",
+ "modified": "2025-04-06 17:07:41.405263",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Sales Account Manager",
