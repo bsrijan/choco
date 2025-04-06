@@ -19,3 +19,10 @@ techstack:
 - mariadb
 - vue.js
 - aws
+
+how does the flow work?
+- created a US number in Twilio that a customer can call.
+- wired the number with a voice agent in eleven labs
+- when the customer calls, the customer speaks to an AI agent to place the order
+- created a webhook to relay conversational data from eleven lab to n8n
+- the data undergoes multiple transformations in n8n before pushing it to custom web app
