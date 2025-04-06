@@ -10,3 +10,12 @@ solution:
 - AI voice agent interfaces the customer to take corders - 24x7
 - AI agent transcribes the conversation, summarizes it and makes the data available in a web app 
 - manually review the order items and create a sales order in the ERP
+
+techstack:
+- twilio
+- eleven labs
+- n8n
+- flask
+- mariadb
+- vue.js
+- aws
