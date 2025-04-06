@@ -2,7 +2,7 @@
 # For license information, please see license.txt
 
 import frappe
-from frappe.model.document import Document
+from frappe.utils.file_manager import save_file
 import base64
 
 @frappe.whitelist()
@@ -52,5 +52,5 @@ def attach_file_to_call_doc(docname, filename, filedata):
             "message": f"Failed to attach file: {e}"
         }
 
-class IncomingCustomerCall(Document):
-	pass
+#class IncomingCustomerCall(Document):
+#	pass
