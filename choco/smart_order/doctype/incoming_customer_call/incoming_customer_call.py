@@ -1,9 +1,8 @@
 # Copyright (c) 2025, Srijan Bandreddi and contributors
 # For license information, please see license.txt
 
-# import frappe
-from frappe.model.document import Document
 import frappe
+from frappe.model.document import Document
 import base64
 
 @frappe.whitelist()
@@ -27,7 +26,7 @@ def attach_file_to_call_doc(docname, filename, filedata):
         filedoc = save_file(
             filename=filename,
             content=decoded_file,
-            dt="Incoming Customer Call",  # Replace with your DocType name
+            dt="Incoming Customer Call",  
             dn=docname,
             is_private=True
         )
