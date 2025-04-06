@@ -2,6 +2,7 @@
  "actions": [],
  "autoname": "format:IN-CALL-{#####}",
  "creation": "2025-04-05 22:28:54.917520",
+ "default_view": "List",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -130,7 +131,7 @@
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 19:08:37.056754",
+ "modified": "2025-04-06 19:12:41.519956",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",
