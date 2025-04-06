@@ -1,6 +1,6 @@
 {
  "actions": [],
- "allow_rename": 1,
+ "autoname": "format:IN-CALL-{#####}",
  "creation": "2025-04-05 22:28:54.917520",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -119,10 +119,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 14:45:09.409038",
+ "modified": "2025-04-06 14:46:59.548152",
  "modified_by": "Administrator",
  "module": "Smart Order",
  "name": "Incoming Customer Call",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -140,5 +141,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }
