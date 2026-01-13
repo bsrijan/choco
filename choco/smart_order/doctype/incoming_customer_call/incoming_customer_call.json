@@ -23,9 +23,15 @@
   "call_technical_details_section",
   "call_metadata_json",
   "order_technical_details_section",
-  "order_json"
+  "order_json",
+  "viewed_by"
  ],
  "fields": [
+  {
+   "fieldname": "viewed_by",
+   "fieldtype": "Data",
+   "label": "Viewed By (Fill in when seen)"
+  }
   {
    "fieldname": "call_conversation",
    "fieldtype": "Long Text",
